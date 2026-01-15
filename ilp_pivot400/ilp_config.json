@@ -1,0 +1,22 @@
+{
+  "pivot_center": {
+    "x": 1526614.0867,
+    "y": 5172513.9705
+  },
+  "irrigation_levels_mm": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+  "price_per_t": 300.0,
+  "water_cost_per_mm_ha": 2.25,
+  "soil_types": {
+    "Deep silt loam": { "y_min": 0.9, "y_max": 2.0, "k": 0.035 },
+    "Shallow stony": { "y_min": 0.7, "y_max": 1.6, "k": 0.030 },
+    "Gravelly": { "y_min": 0.6, "y_max": 1.4, "k": 0.028 },
+    "Compacted": { "y_min": 0.65, "y_max": 1.5, "k": 0.029 },
+    "Organic patch": { "y_min": 1.1, "y_max": 2.2, "k": 0.038 }
+  },
+  "default_soil_type": "Deep silt loam",
+  "arc_sectors": {
+    "lmin_deg": 5,
+    "lmax_deg": 120,
+    "include_full_circle": true
+  }
+}
